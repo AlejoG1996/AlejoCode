@@ -23,7 +23,7 @@ const AboutSection = () => {
           {/* Columna izquierda - Texto */}
           <div className="lg:col-span-5">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-zinc-800 dark:text-zinc-50">
-              PERFIL PROFECIONAL
+              PERFIL PROFESIONAL
             </h2>
             <p className="text-zinc-700 dark:text-zinc-300 text-sm sm:text-base mb-8 leading-relaxed">
               Ingeniero en Sistemas de Información orientado a resultados, con
