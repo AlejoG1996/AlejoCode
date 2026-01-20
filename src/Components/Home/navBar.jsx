@@ -20,7 +20,7 @@ const NavBar = () => {
   const { theme, setTheme, toggleTheme } = useContext(MyDevHubContext);
   const menuItems = [
     { name: "Sobre Mi", href: "#aboutSection" },
-    { name: "Proyectos", href: "#proyectos" },
+    { name: "Proyectos", href: "#serviceSection" },
     { name: "Novedades", href: "#novedades" },
   ];
   const dropdownConfigRef = useRef(null);
@@ -158,16 +158,19 @@ const NavBar = () => {
                     <span>Sobre Mi</span>
                   </a>
                   <a
-                    href="#aboutSection"
+                    href="#serviceSection"
                     className="w-full px-3 py-2 text-left text-zinc-500 dark:text-zinc-300 hover:bg-zinc-200 dark:hover:bg-zinc-800 hover:text-zinc-600 dark:hover:text-white transition-colors duration-200 flex items-center gap-2 text-sm"
                   >
                     <CodeXml size={14} strokeWidth={1.5} />
                     <span>Proyectos</span>
                   </a>
-                  <button className="w-full px-3 py-2 text-left text-zinc-500 dark:text-zinc-300 hover:bg-zinc-200 dark:hover:bg-zinc-800 hover:text-zinc-600 dark:hover:text-white transition-colors duration-200 flex items-center gap-2 text-sm">
+                  <a
+                    href="#articlesSection"
+                    className="w-full px-3 py-2 text-left text-zinc-500 dark:text-zinc-300 hover:bg-zinc-200 dark:hover:bg-zinc-800 hover:text-zinc-600 dark:hover:text-white transition-colors duration-200 flex items-center gap-2 text-sm"
+                  >
                     <LayersPlus size={14} strokeWidth={1.5} />
                     <span>Novedades</span>
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>

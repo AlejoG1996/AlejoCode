@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "Introducción a React Hooks",
+    "type": "Inteligencia Artificial Aplicada",
+    "category": "Tutorial",
+    "description": "Aprende los fundamentos de React Hooks y cómo pueden mejorar tu código. Desde useState hasta useEffect.",
+    "thumbnail": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+    "active": true,
+    "readTime": "8 min"
+  }
+]

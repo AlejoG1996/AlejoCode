@@ -17,7 +17,7 @@ const AppRoutes = () => {
 function App() {
   return (
     <MyDevHubProvider>
-      <BrowserRouter basename="/AlejoCode">
+      <BrowserRouter>
         <AppRoutes></AppRoutes>
       </BrowserRouter>
     </MyDevHubProvider>

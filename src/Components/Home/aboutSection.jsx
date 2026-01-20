@@ -4,7 +4,7 @@ const AboutSection = () => {
   return (
     <section
       id="aboutSection"
-      className="m-10 relative overflow-hidden bg-gray-50 dark:bg-zinc-900 mb-80 rounded-4xl shadow-[0_2px_8px_0_rgba(99,99,99,0.2)] border border-zinc-200/50 dark:border-zinc-800/50 min-h-screen py-16 px-4 sm:px-6 lg:px-8"
+      className="m-10 relative overflow-hidden bg-gray-50 dark:bg-zinc-900 mb-20 rounded-4xl shadow-[0_2px_8px_0_rgba(99,99,99,0.2)] border border-zinc-200/50 dark:border-zinc-800/50 min-h-screen py-16 px-4 sm:px-6 lg:px-8"
     >
       {/* Efecto de luz - lado izquierdo */}
       {/* Efecto de luz - lado izquierdo */}
